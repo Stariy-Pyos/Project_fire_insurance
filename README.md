@@ -37,3 +37,9 @@ $$RMSLE = \sqrt{\frac{1}{n}\sum_{i=1}^n(log(y_i+1)-log(\hat{y_i}+1))^2}$$
 * $y_i$ - истинное значение целевого признака (target)
 
 * $\hat{y_i}$ - предсказанная i-го значения целевого признака 
+
+Образы Docker выложены на Docker Hub
+features:
+https://hub.docker.com/layers/stariypyos/prediction_of_fire_insurance_losses-features/latest/images/sha256-bd67fae0aa6c3fca6a7c041c777474eb05439f8a5f84ca07da47ca0a78872919
+model:
+https://hub.docker.com/layers/stariypyos/prediction_of_fire_insurance_losses-model/latest/images/sha256-e00333620649e9295d5d46bf64703fd8fe82f66519f23b6bba2e71dc59ebaf2b
