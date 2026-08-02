@@ -34,6 +34,6 @@ Prediction of fire insurance losses
 $$RMSLE = \sqrt{\frac{1}{n}\sum_{i=1}^n(log(y_i+1)-log(\hat{y_i}+1))^2}$$
 где:
 
-* $y_i$ - истинноу значение целевого признака (target)
+* $y_i$ - истинное значение целевого признака (target)
 
 * $\hat{y_i}$ - предсказанная i-го значения целевого признака 
